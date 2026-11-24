@@ -39,7 +39,7 @@ No outputs.
 #### Requirements
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) |  >= 1.3.0 |
 | <a name="requirement_azurecaf"></a> [azurecaf](#requirement\_azurecaf) | >= 1.2.25 |
 | <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | >= 3.14 |
@@ -47,7 +47,7 @@ No outputs.
 #### Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_environment"></a> [environment](#input\_environment) | n/a | `string` | n/a | yes |
 | <a name="input_targetserver_usage"></a> [targetserver\_usage](#input\_targetserver\_usage) | The target server SERVER\_USAGE tag | `string` | n/a | yes |
 | <a name="input_caf_prefixes"></a> [caf\_prefixes](#input\_caf\_prefixes) | Prefixes to use for caf naming. Only required when create\_endpoints is true. | `list(string)` | `[]` | no |
@@ -67,7 +67,7 @@ No outputs.
 #### Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_mssql_servers_fully_qualified_domain_name"></a> [mssql\_servers\_fully\_qualified\_domain\_name](#output\_mssql\_servers\_fully\_qualified\_domain\_name) | n/a |
 | <a name="output_sql_servers_databases_map"></a> [sql\_servers\_databases\_map](#output\_sql\_servers\_databases\_map) | n/a |
 <!-- END_TF_DOCS -->
